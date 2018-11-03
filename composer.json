@@ -18,19 +18,19 @@
         "doctrine/dbal": "^2.5",
         "laravelcollective/html": "5.5.*",
         "yajra/laravel-datatables-oracle": "^8.0",
-        "sgsoft-studio/acl": "4.0.*",
-        "sgsoft-studio/assets-management": "4.0.*",
-        "sgsoft-studio/caching": "4.0.*",
-        "sgsoft-studio/elfinder": "4.0.*",
-        "sgsoft-studio/hook": "4.0.*",
-        "sgsoft-studio/menu": "4.0.*",
-        "sgsoft-studio/modules-management": "4.0.*",
-        "sgsoft-studio/settings": "4.0.*",
-        "sgsoft-studio/themes-management": "4.0.*",
-        "sgsoft-studio/users": "4.0.*",
-        "sgsoft-studio/pages": "4.0.*",
-        "sgsoft-studio/shortcode": "4.0.*",
-        "sgsoft-studio/static-blocks": "4.0.*"
+        "sgsoft-studio/acl": "dev-development",
+        "sgsoft-studio/assets-management": "dev-development",
+        "sgsoft-studio/caching": "dev-development",
+        "sgsoft-studio/elfinder": "dev-development",
+        "sgsoft-studio/hook": "dev-development",
+        "sgsoft-studio/menu": "dev-development",
+        "sgsoft-studio/modules-management": "dev-development",
+        "sgsoft-studio/settings": "dev-development",
+        "sgsoft-studio/themes-management": "dev-development",
+        "sgsoft-studio/users": "dev-development",
+        "sgsoft-studio/pages": "dev-development",
+        "sgsoft-studio/shortcode": "dev-development",
+        "sgsoft-studio/static-blocks": "dev-development"
     },
     "autoload": {
         "psr-4": {
@@ -49,5 +49,55 @@
                 "Seo": "WebEd\\Base\\Facades\\SeoFacade"
             }
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftaclmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftassetsmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftauthmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftbackupmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftcachingmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftcustomfieldsmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansofthookmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftmenumod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftpagesmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftsettingsmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftusersmod.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/cleansoftmods/cleansoftthemesmod.git"
+        }
+	]
 }
