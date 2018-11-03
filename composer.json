@@ -19,7 +19,7 @@
         "laravelcollective/html": "5.5.*",
         "yajra/laravel-datatables-oracle": "^8.0",
         "sgsoft-studio/acl": "dev-master#v5.5.0",
-        "sgsoft-studio/assets-management": "dev-development",
+        "sgsoft-studio/assets-management": "dev-master#v5.5.0",
         "sgsoft-studio/caching": "dev-development",
         "sgsoft-studio/elfinder": "dev-development",
         "sgsoft-studio/hook": "dev-development",
