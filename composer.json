@@ -18,7 +18,7 @@
         "doctrine/dbal": "^2.5",
         "laravelcollective/html": "5.5.*",
         "yajra/laravel-datatables-oracle": "^8.0",
-        "sgsoft-studio/acl": "dev-development",
+        "sgsoft-studio/acl": "~5.0",
         "sgsoft-studio/assets-management": "dev-development",
         "sgsoft-studio/caching": "dev-development",
         "sgsoft-studio/elfinder": "dev-development",
